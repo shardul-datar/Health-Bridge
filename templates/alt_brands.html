@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title> Alt Brand Finder</title>
+<title> AlternaFind</title>
 {% endblock %}
 
 {% block body %}
 <div class="content">
-    <h1> Alt Brand Finder</h1>
+    <h2> AlternaFind</h2>
     <table>
         <tr>
             <th>Name</th>
@@ -15,9 +15,10 @@
         {% for med in alt_brands %}
             <tr>
                 <td>{{ med[0] }}</td>
-                <td>{{ med[1] }}</td>
+                <td><a href={{ med[1] }}>{{ med[1] }}</a></td>
             </tr>
         {% endfor %}
     </table>
+    <img src="https://thumbs.dreamstime.com/b/cartoon-pharmacy-building-exterior-isolated-white-background-cute-flat-drug-store-front-outside-view-open-sign-door-159030748.jpg">
 </div>
 {% endblock %}
