@@ -1,4 +1,30 @@
-body {
-    margin:0
-    font-family: sans-serif
+h1{
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: white;
+    background-color: #72C1E4;
+    margin: 0;
+    padding: 0;
+}
+
+div.content{
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    padding: 10px;
+    border: 1px solid;
+    width: 100;
+}
+
+
+h2{
+    text-align: center;
+}
+
+h3, form{
+    text-align: center;
 }
